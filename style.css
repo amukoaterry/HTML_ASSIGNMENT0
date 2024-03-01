@@ -1,0 +1,15 @@
+#bucket1{
+    display: flex;
+    padding:8px;
+    flex-wrap: wrap;
+}
+.main-wrapper{
+    margin-left: 20%;
+}
+.img-one .img-two , .img-three,
+ .img-four , .img-six ,.img-seven ,
+ .img-eight {
+    width:40%;
+    height:40%;
+    padding: 16px;
+ }
