@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 .main-wrapper{
-    margin-left: 20%;
+    margin-left: 16%;
 }
 .img-one .img-two , .img-three,
  .img-four , .img-six ,.img-seven ,
@@ -13,3 +13,20 @@
     height:40%;
     padding: 16px;
  }
+button{
+    border-radius: 50%;
+    background-color: black ;
+    color:white;
+    margin-left: 15%;
+    width: 50px;
+}
+#bucket2{
+    display: flex;
+    padding: 8px;
+}
+.text{
+    font-size: 18px;
+    padding: 16px;
+    margin-left: 10%;
+}
+
