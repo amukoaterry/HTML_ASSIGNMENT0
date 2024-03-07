@@ -1,7 +1,14 @@
-#bucket1{
+#general{
+    background-color: rgb(190, 183, 190);
+    
+}
+#firstfour{
+display: flex;
+justify-content:space-between;
+}
+#secondfour{
     display: flex;
-    padding:8px;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .main-wrapper{
     margin-left: 16%;
@@ -13,20 +20,73 @@
     height:40%;
     padding: 16px;
  }
-button{
+.button{
     border-radius: 50%;
     background-color: black ;
     color:white;
-    margin-left: 15%;
+    margin-left: 50%;
     width: 50px;
-}
-#bucket2{
-    display: flex;
-    padding: 8px;
-}
-.text{
-    font-size: 18px;
-    padding: 16px;
-    margin-left: 10%;
+
+
+
 }
 
+.text{
+    font-size: 18px;
+    padding: 18px;
+    margin-left: 10%;
+    display: flex;
+
+}
+.shoes{
+    background-image : url('images/lofers0.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 1000px;
+    background-size: cover;
+    margin-bottom: 10%;
+    border: solid black 10px;
+    
+    
+}
+#smartshoes{
+
+display: flex;
+gap: 125px;
+
+}
+#container{
+    display: flex;
+}
+
+#Explore{
+    font-size: 25px;
+    font-style: italic;
+}
+
+#Await{
+    font-size: 23px;
+    font-style: italic;
+}
+#magic{
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+#Words{
+    background-color: black;
+    color: white;
+}
+
+#embrace{
+    font-size: 25px;
+    font-style: inherit;
+    
+}  
+
+#down{
+display: flex;
+justify-content: space-between;
+}
